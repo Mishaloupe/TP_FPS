@@ -73,3 +73,21 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+# Unity specific
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+.vs/
+.idea/
+.vscode/
+.user/
+.userprefs/
+*.swp
+*.suo
+*.tmp
+*.bak
+*.pidb
+*.mdb
+*.opendb

@@ -1167,3 +1167,371 @@ Memory consumption went from 166.8 MB to 161.7 MB.
 Total: 12.261100 ms (FindLiveObjects: 0.702500 ms CreateObjectMapping: 1.414500 ms MarkObjects: 6.653800 ms  DeleteObjects: 3.489300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.703 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.697 seconds
+Domain Reload Profiling: 1399ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (357ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (698ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (529ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6479 unused Assets / (4.8 MB). Loaded Objects now: 7333.
+Memory consumption went from 169.3 MB to 164.5 MB.
+Total: 9.138300 ms (FindLiveObjects: 0.745300 ms CreateObjectMapping: 0.932600 ms MarkObjects: 4.771700 ms  DeleteObjects: 2.688200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 733.907636 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0948a8d2aa0fc787810c75d8222b47b9') in 0.0052703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.054414 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bones_02.prefab
+  artifactKey: Guid(8d7853af1b66f0e4493c6429fee91a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bones_02.prefab using Guid(8d7853af1b66f0e4493c6429fee91a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee4428d8e0006f020aabf530db1161dd') in 0.649247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_14.prefab
+  artifactKey: Guid(f2c1cc5982e4baf4b9b63f34494b83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_14.prefab using Guid(f2c1cc5982e4baf4b9b63f34494b83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19609b8253a76b7dda1ca757126b6913') in 0.0171044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_27_B.prefab
+  artifactKey: Guid(aa1ae733ccd52dc4a86c07ec3d054a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_27_B.prefab using Guid(aa1ae733ccd52dc4a86c07ec3d054a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '696c4d850e7866e35ae112b9f24ecd69') in 0.0161408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_06_B.prefab
+  artifactKey: Guid(3da83ddcdef92674ba500e9999973612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_06_B.prefab using Guid(3da83ddcdef92674ba500e9999973612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58e0a937b0b79eb538f907b9c57d4f08') in 0.0164925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_11.prefab
+  artifactKey: Guid(215f1b67169bdbf45be11969f94d03bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_11.prefab using Guid(215f1b67169bdbf45be11969f94d03bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db8610af3cff28583acbcabfbd244bd3') in 0.0155715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_15_B.prefab
+  artifactKey: Guid(06f46209d437f7e4994ca7b87b073aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_15_B.prefab using Guid(06f46209d437f7e4994ca7b87b073aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da10b66b9a5e6c45821e85a7a40a717a') in 0.0154304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_15_A.prefab
+  artifactKey: Guid(c97d9353e71fdcd4dbcec096957a3fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_15_A.prefab using Guid(c97d9353e71fdcd4dbcec096957a3fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f3950431c6fb6ba7f9eb6935cc1e04a') in 0.0145247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_15.prefab
+  artifactKey: Guid(f9ee1f02b6829bb4385061f97a96534b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_15.prefab using Guid(f9ee1f02b6829bb4385061f97a96534b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c443a3a170e66335033884d398b71d3') in 0.0152134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_14_B.prefab
+  artifactKey: Guid(cb9f430c17690c043b4c38f19361df3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_14_B.prefab using Guid(cb9f430c17690c043b4c38f19361df3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca30e426c9c1e121be809217e5817e4c') in 0.0116154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_27_A.prefab
+  artifactKey: Guid(c4c3977fdfc2d3e41839ed8e67bb0298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_27_A.prefab using Guid(c4c3977fdfc2d3e41839ed8e67bb0298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '578ce0ff9947fed07a29b7db876e5d33') in 0.0139452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_23_B.prefab
+  artifactKey: Guid(5bb1ff6eced644c4584e257a3b558791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_23_B.prefab using Guid(5bb1ff6eced644c4584e257a3b558791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa76ca87d0703594727822a26683b82e') in 0.0139451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_02_B.prefab
+  artifactKey: Guid(25ef3ce5470a28c45968103cdc5b8e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_02_B.prefab using Guid(25ef3ce5470a28c45968103cdc5b8e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99c1cd609f61a8e752218bdeca0a1234') in 0.013319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_20_A.prefab
+  artifactKey: Guid(c667a0ffa96c0174390af555db2af3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_20_A.prefab using Guid(c667a0ffa96c0174390af555db2af3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f0288d9ca2032899fd594fbc5d38d86') in 0.0131534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_07_A.prefab
+  artifactKey: Guid(020032b7cf0dae3428270c85b48b0974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_07_A.prefab using Guid(020032b7cf0dae3428270c85b48b0974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f83eafa1dc12097866341f234d0dfe6') in 0.0132218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_20_B.prefab
+  artifactKey: Guid(7936590eb4b262043bfd2d60f8febfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_20_B.prefab using Guid(7936590eb4b262043bfd2d60f8febfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc7ab416a8c82e2383e952343131be83') in 0.0155134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_08.prefab
+  artifactKey: Guid(5f68e59d966f09c40acaa7371d15cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_08.prefab using Guid(5f68e59d966f09c40acaa7371d15cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e48292f644459436c6498a0cdaa55ae0') in 0.0146195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_12_A.prefab
+  artifactKey: Guid(5c14f095f169d7b45863933539fac8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_12_A.prefab using Guid(5c14f095f169d7b45863933539fac8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86c68ac6be6612c1ce5ec4a3a010d1c3') in 0.0139236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_21_B.prefab
+  artifactKey: Guid(80e127278a775834e8340f9ac2394888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_21_B.prefab using Guid(80e127278a775834e8340f9ac2394888) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ec2e214356f51a43dc12d9545f90762') in 0.0182915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_05_B.prefab
+  artifactKey: Guid(2290ac81cb91d554792fb16100be3449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_05_B.prefab using Guid(2290ac81cb91d554792fb16100be3449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7ba616e4eb8271ead505108f6437555') in 0.014126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_06_A.prefab
+  artifactKey: Guid(3faf0edc560d87d4db9042577441dbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_06_A.prefab using Guid(3faf0edc560d87d4db9042577441dbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bac2efebc6b91efcbcd10fa2b7fd20fa') in 0.0124835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_23_A.prefab
+  artifactKey: Guid(00cc087a9879fe542a093a52f97e8770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_23_A.prefab using Guid(00cc087a9879fe542a093a52f97e8770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82cbddb18e047df9f654f81c032f3c89') in 0.0123429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_07.prefab
+  artifactKey: Guid(ffa0f996f5cdedf43a615ea7198d838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_07.prefab using Guid(ffa0f996f5cdedf43a615ea7198d838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '318290f27c8dc565b9f5759686cd5ff1') in 0.0109053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_29_B.prefab
+  artifactKey: Guid(b6a8c8e8ca5101c4090bb2be8796bbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_29_B.prefab using Guid(b6a8c8e8ca5101c4090bb2be8796bbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '954e1febabd5917c89ffdd274a2fdc92') in 0.0119409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_10_A.prefab
+  artifactKey: Guid(33d3fcff0fd758b4b94015e72dd1febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_10_A.prefab using Guid(33d3fcff0fd758b4b94015e72dd1febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5295350e02ac0f74bcc649f8c9c4b524') in 0.0130405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_03_A.prefab
+  artifactKey: Guid(04eabf265d0012f4580ee0575f73531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_03_A.prefab using Guid(04eabf265d0012f4580ee0575f73531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea209bf584dc6e9177d9f02d678b209b') in 0.0131986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_11_A.prefab
+  artifactKey: Guid(02e78a72d3a389c468d89228944117c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_11_A.prefab using Guid(02e78a72d3a389c468d89228944117c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39b66426b8444cac2768b0a6816b14d9') in 0.0117734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_12_B.prefab
+  artifactKey: Guid(f7ac09ea883fdd04298dcdad71ef9dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_12_B.prefab using Guid(f7ac09ea883fdd04298dcdad71ef9dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0d9915957eda11defbbd1d98203bc0f') in 0.0122745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_24_A.prefab
+  artifactKey: Guid(b9645f2db2a86eb46b18e90a215e4d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_24_A.prefab using Guid(b9645f2db2a86eb46b18e90a215e4d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2725e3863768c4c45e8fefb097342215') in 0.011792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_29_A.prefab
+  artifactKey: Guid(06ca86c49fd7fd645ad936cbf1395128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_29_A.prefab using Guid(06ca86c49fd7fd645ad936cbf1395128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69a02615ac4caf2fc22bc0680996b734') in 0.0115689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_06.prefab
+  artifactKey: Guid(57d71f3669107ab43b5a078c857c172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_06.prefab using Guid(57d71f3669107ab43b5a078c857c172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25acfb07b76fbcc14620130b4cf64840') in 0.0124912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_08_A.prefab
+  artifactKey: Guid(b7feb492ead0777429f14b13de1b85a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_08_A.prefab using Guid(b7feb492ead0777429f14b13de1b85a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b379cfda7a72e8c00f074575f326c6') in 0.0128246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_01.prefab
+  artifactKey: Guid(0f2c7b7467d1fae4086c5ad26e2bf9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_01.prefab using Guid(0f2c7b7467d1fae4086c5ad26e2bf9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8785f847293f7fb8917118689a2a4d9') in 0.014468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_10.prefab
+  artifactKey: Guid(ea0c625b6e93b4349adb6e0ea0fc4241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_10.prefab using Guid(ea0c625b6e93b4349adb6e0ea0fc4241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66aeab7e9c18f06ab39021483eed7cf4') in 0.0135364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bones_06.prefab
+  artifactKey: Guid(3f6fde56de2e39c4fb79b5b04a04c3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bones_06.prefab using Guid(3f6fde56de2e39c4fb79b5b04a04c3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc3f572c36828f923f08268868d4638f') in 0.0113006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_12.prefab
+  artifactKey: Guid(18c77c0c573275d4e877190655ed3c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Bush_12.prefab using Guid(18c77c0c573275d4e877190655ed3c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c68dff451481b2535c5e540204b95c03') in 0.0112239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_25_A.prefab
+  artifactKey: Guid(974c889c92cdabc43ae5a395778c1751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_25_A.prefab using Guid(974c889c92cdabc43ae5a395778c1751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be1a18fcce2ee9531bab5b5c48d85e35') in 0.0130719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_19_A.prefab
+  artifactKey: Guid(9d6da0e093da27b4e881182a73998cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_19_A.prefab using Guid(9d6da0e093da27b4e881182a73998cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a63aa7aa725658bf6a5268960feae31f') in 0.0109501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,1975 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.17f1 (c0b9d3899998) revision 12630483'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Education' Language: 'fr' Physical Memory: 15969 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-10-20T11:55:31Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\6000.1.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/lbeden/Documents/GitHub/TP_FPS
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+62204
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/lbeden/Documents/GitHub/TP_FPS
+C:/Users/lbeden/Documents/GitHub/TP_FPS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23372]  Target information:
+
+Player connection [23372]  * "[IP] 10.10.141.14 [Port] 0 [Flags] 2 [Guid] 3682564864 [EditorId] 3682564864 [Version] 1048832 [Id] WindowsEditor(7,GCFRLY406) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23372] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23372] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.17f1 (c0b9d3899998)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/6000.1.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lbeden/Documents/GitHub/TP_FPS/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:          NVIDIA
+    VRAM:            8018 MB
+    App VRAM Budget: 7250 MB
+    Driver:          32.0.15.8097
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/6000.1.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/6000.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/6000.1.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/6000.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/6000.1.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003856 seconds.
+- Loaded All Assemblies, in  0.497 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 447 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.934 seconds
+Domain Reload Profiling: 1429ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (179ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (935ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (888ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (594ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.023 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.927 seconds
+Domain Reload Profiling: 1943ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (653ms)
+		LoadAssemblies (506ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (205ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (927ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (669ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6482 unused Assets / (5.2 MB). Loaded Objects now: 7182.
+Memory consumption went from 131.8 MB to 126.6 MB.
+Total: 15.789100 ms (FindLiveObjects: 1.505700 ms CreateObjectMapping: 1.783700 ms MarkObjects: 7.477800 ms  DeleteObjects: 5.020100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 434807.440463 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Flower_13.prefab
+  artifactKey: Guid(756941020a83ce84fa29f2761c7e89a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Flower_13.prefab using Guid(756941020a83ce84fa29f2761c7e89a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfe0b21fa586dd0b27af89f64d92a5dc') in 0.7223325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Coral_31.prefab
+  artifactKey: Guid(1a73f86d0d77585459e58e7bd602d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Coral_31.prefab using Guid(1a73f86d0d77585459e58e7bd602d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbdec32277c4ab2234918a28473426a1') in 0.0161249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_33_B.prefab
+  artifactKey: Guid(c2265115c13ffb240a1bbab2887f4737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Cactus_33_B.prefab using Guid(c2265115c13ffb240a1bbab2887f4737) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c1d6fdaa96b6c343fd1ba1a947c0411') in 0.0148808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Coral_26.prefab
+  artifactKey: Guid(d364bdb2a26c2084aae0ee7964b5657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Coral_26.prefab using Guid(d364bdb2a26c2084aae0ee7964b5657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5e9b3b4a72899c39ad778feb2f60855') in 0.0135095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Coral_02.prefab
+  artifactKey: Guid(705c0aa3eab892e4a8242fe10cafb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Coral_02.prefab using Guid(705c0aa3eab892e4a8242fe10cafb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1336e0cb62a475ef8189202d812486bd') in 0.0161164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.958511 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Flower_25.prefab
+  artifactKey: Guid(62746b6c21087524395c845c4c37b4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Flower_25.prefab using Guid(62746b6c21087524395c845c4c37b4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79cb46921d4dc4b257a99509298f5d23') in 0.0150557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Foliage_01.prefab
+  artifactKey: Guid(23ba754f5a5ecb14a887b196bc89d236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Foliage_01.prefab using Guid(23ba754f5a5ecb14a887b196bc89d236) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e4b834ffb346ebf56eab565c676d6df') in 0.0171605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Flower_31.prefab
+  artifactKey: Guid(1e3f7ef6a56a127458ed479dea5b2fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Flower_31.prefab using Guid(1e3f7ef6a56a127458ed479dea5b2fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53ede7d019de3f2a75deb668e68bf16f') in 0.016042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_11.prefab
+  artifactKey: Guid(d8dee1d07c87c47479562b68e4ad7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_11.prefab using Guid(d8dee1d07c87c47479562b68e4ad7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1c9d2a9b8327241c1cb329c3e4aa3cd') in 0.0176456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_06.prefab
+  artifactKey: Guid(118d420437bea2a44ae6aac02f355929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_06.prefab using Guid(118d420437bea2a44ae6aac02f355929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96c7476a992f2faa9a4b648bccac6ff7') in 0.0184995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Flower_34.prefab
+  artifactKey: Guid(3b22c1a1234fa0c479f2565e08b8d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Flower_34.prefab using Guid(3b22c1a1234fa0c479f2565e08b8d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea54ca671e2f6a0ac93f4f118356bd3c') in 0.0234129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_02.prefab
+  artifactKey: Guid(23019f22ed1b505499678623b3cf2d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_02.prefab using Guid(23019f22ed1b505499678623b3cf2d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5faa32be3516d631269adb0cb8480b0e') in 0.0198298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_07.prefab
+  artifactKey: Guid(e520a0ff494594d4291a1bb68c89d2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_07.prefab using Guid(e520a0ff494594d4291a1bb68c89d2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9206c49d0dbf0a462ed82d1d08635978') in 0.0187696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.163124 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_12.prefab
+  artifactKey: Guid(6d6b76e18c07aec4d8f2dbab2950af33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_12.prefab using Guid(6d6b76e18c07aec4d8f2dbab2950af33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b6a4e87651223a14ec6e89549a52960') in 0.0220248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_16.prefab
+  artifactKey: Guid(7e0888ed6c206f644ae34fd149e86913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_16.prefab using Guid(7e0888ed6c206f644ae34fd149e86913) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cea1cdaaee0b27dd3386059bfd5678b0') in 0.0184902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_27.prefab
+  artifactKey: Guid(34666990a7216fd49902debe7e9ad0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_27.prefab using Guid(34666990a7216fd49902debe7e9ad0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '021eef12c88a11e20f112d87b2e227db') in 0.0156502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_24.prefab
+  artifactKey: Guid(52fe719de8506fa4c9cf35ca54e81f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_24.prefab using Guid(52fe719de8506fa4c9cf35ca54e81f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e6ab7ee78e7d1a19bb8eb32c12e2b58') in 0.0163714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_29.prefab
+  artifactKey: Guid(ad318ec6f5368af4fb932fdf2f6d0c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_29.prefab using Guid(ad318ec6f5368af4fb932fdf2f6d0c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e011611bbc0d70d6e1c553fa32cef8a') in 0.0203412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_41.prefab
+  artifactKey: Guid(dd72732cab1e29742b6f7260eb687c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_41.prefab using Guid(dd72732cab1e29742b6f7260eb687c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecb33b032393328b2185270cd3fa0282') in 0.0179965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_38.prefab
+  artifactKey: Guid(c4a5d58239431e540b96817852d5f840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_38.prefab using Guid(c4a5d58239431e540b96817852d5f840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85a950dc17599faba80a5eac266215e8') in 0.0177116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_31.prefab
+  artifactKey: Guid(26988f13c95845743a8e9cdc670e8421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Grass_31.prefab using Guid(26988f13c95845743a8e9cdc670e8421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c3ccafbb0a9279f79347f40b78abc0f') in 0.0180072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005716 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_03.prefab
+  artifactKey: Guid(5058420d97eab5b4bbeb3541905be3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_03.prefab using Guid(5058420d97eab5b4bbeb3541905be3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '006a86d5b978c75fcf5013b243ce8392') in 0.0157101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_14.prefab
+  artifactKey: Guid(772e8fad8b9861742b6573f19f0fe458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_14.prefab using Guid(772e8fad8b9861742b6573f19f0fe458) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2ce5dcec55e4f2e70729fbba16deb5f') in 0.0148769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_09.prefab
+  artifactKey: Guid(003d83dca6d86274fb16c4b28f62a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_09.prefab using Guid(003d83dca6d86274fb16c4b28f62a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eb79add3c2a985e9c1d38a7e84edf04') in 0.0148683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_16.prefab
+  artifactKey: Guid(640f9fa7285b86b438aaf6002352f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_16.prefab using Guid(640f9fa7285b86b438aaf6002352f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c24404167d52f7615c435c6c4b3d934') in 0.0138299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023733 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_19.prefab
+  artifactKey: Guid(a6124ea2cd61c2e428d74e95d93eb3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_19.prefab using Guid(a6124ea2cd61c2e428d74e95d93eb3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fbae744eab5d97926dc932703ba8cf6') in 0.0147211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_23.prefab
+  artifactKey: Guid(ef6f0e5c509d22d409aa1a9fb133c0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_23.prefab using Guid(ef6f0e5c509d22d409aa1a9fb133c0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edfbf01d5ce991b962ae075033ec4a85') in 0.0133988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_29.prefab
+  artifactKey: Guid(b5d1198af13763d458d07e6eba44d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_29.prefab using Guid(b5d1198af13763d458d07e6eba44d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ddd30f0d99300cfa6f251e5339951f2') in 0.0132172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_28.prefab
+  artifactKey: Guid(4c549f88305ef3642b762ce661bf873e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_28.prefab using Guid(4c549f88305ef3642b762ce661bf873e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd77516d6686ea3e90d3016d44b069bb5') in 0.0155278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.125563 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_35.prefab
+  artifactKey: Guid(55c4e08a3377e4d408d2baefe841f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_35.prefab using Guid(55c4e08a3377e4d408d2baefe841f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ad7e67f0912f0522ed763bc84f70883') in 0.0340509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_47.prefab
+  artifactKey: Guid(27f8f765890aba14b908d0ede66b2318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_47.prefab using Guid(27f8f765890aba14b908d0ede66b2318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37b0609f75ee5325dcab3e72e6c3c96b') in 0.0246944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_58.prefab
+  artifactKey: Guid(2e4531dc3154b2f46b0338b07c57fef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_58.prefab using Guid(2e4531dc3154b2f46b0338b07c57fef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '176de7e9ab23c33ccb7e6f929ff2869d') in 0.0286276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_40.prefab
+  artifactKey: Guid(7cbf4246b128d794fbf27f7312740a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_40.prefab using Guid(7cbf4246b128d794fbf27f7312740a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2cdd91d83d84277f3933d3bd17cfcc4') in 0.0226562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_46.prefab
+  artifactKey: Guid(c1c590ef6e27f5347bd5109622a7f234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_46.prefab using Guid(c1c590ef6e27f5347bd5109622a7f234) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07cf26684c0440a1c8c52a5c310244c0') in 0.0147056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_53.prefab
+  artifactKey: Guid(38dbcd9e922bd914abee71b85b5c3c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_53.prefab using Guid(38dbcd9e922bd914abee71b85b5c3c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '978a2b167bab42fdeb9aca10fe944e87') in 0.015937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_56.prefab
+  artifactKey: Guid(7db47b43d11a1a94a83043e5f9c0dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/HardRock_56.prefab using Guid(7db47b43d11a1a94a83043e5f9c0dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12534a9fc8ca2ed47b4378cc10c2ecc0') in 0.0142495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Jem_06.prefab
+  artifactKey: Guid(9c60f48efd51b7f44a488004a3fda61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Prefabs/Jem_06.prefab using Guid(9c60f48efd51b7f44a488004a3fda61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '736039c177f94904b5f02db6c4e52fc5') in 0.0157867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.865991 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models
+  artifactKey: Guid(436cb50efa45479498fcd8c6af519aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models using Guid(436cb50efa45479498fcd8c6af519aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b60de7d7c9e534bb05448473ebeda437') in 0.0006325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049968 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bones_01.fbx
+  artifactKey: Guid(f359dcf19cb15ac4ab7adf7d2e392d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bones_01.fbx using Guid(f359dcf19cb15ac4ab7adf7d2e392d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb3e752d93a2893030598ee8cc9819ff') in 0.11355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_29_B.fbx
+  artifactKey: Guid(1e48b8e44d6ba4a428e1a19947675b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_29_B.fbx using Guid(1e48b8e44d6ba4a428e1a19947675b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5080491959b6ff58c69ba786f30703f0') in 0.04306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_26_A.fbx
+  artifactKey: Guid(771eea699fa4a8e448a4d45e2fa2d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_26_A.fbx using Guid(771eea699fa4a8e448a4d45e2fa2d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f3489031f589ba2bc5d79bd0f278c9b') in 0.0279318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_01_B.fbx
+  artifactKey: Guid(6e16a86368f06824aa155b6abf39b9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_01_B.fbx using Guid(6e16a86368f06824aa155b6abf39b9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8077fc1a1a5e39d93c73f7bdee5a6fe') in 0.033895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bush_15.fbx
+  artifactKey: Guid(6bbd8661067dce74aaf7cdddd156187d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bush_15.fbx using Guid(6bbd8661067dce74aaf7cdddd156187d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '101f6b9d2b6cff8dc677cda375246410') in 0.0239684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_02_A.fbx
+  artifactKey: Guid(00d03e57ddc777c4692581d2bccce291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_02_A.fbx using Guid(00d03e57ddc777c4692581d2bccce291) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42a94f96c83c818a67ff281d1cc0298f') in 0.0274771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bush_05.fbx
+  artifactKey: Guid(2d806d9b99770c543bde0e26f9bb421c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bush_05.fbx using Guid(2d806d9b99770c543bde0e26f9bb421c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fb5f51afa302ff6e52aa64bb59f1d3f') in 0.026411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_01_A.fbx
+  artifactKey: Guid(6b104f003853eb24980fe2e54c8c8951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_01_A.fbx using Guid(6b104f003853eb24980fe2e54c8c8951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3281311a1433fd4d443f85781faf979') in 0.0213735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bush_08.fbx
+  artifactKey: Guid(bf02fe5955dbe884581858c7d2940178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bush_08.fbx using Guid(bf02fe5955dbe884581858c7d2940178) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0070cfd4112248caae883d2bb6fe5720') in 0.0354578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_10_B.fbx
+  artifactKey: Guid(15a0d949af4e0eb4dad9b9e4a777a99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_10_B.fbx using Guid(15a0d949af4e0eb4dad9b9e4a777a99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45abb87aa1e10d92e8293e5222edec51') in 0.0221614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_15_B.fbx
+  artifactKey: Guid(c05b53c0cba9a9347827ebdf5081b2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_15_B.fbx using Guid(c05b53c0cba9a9347827ebdf5081b2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ca57f41a3345783c2f297c6dc0b2da2') in 0.024318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_24_A.fbx
+  artifactKey: Guid(65e3f6504803ee347960a974a25cadf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_24_A.fbx using Guid(65e3f6504803ee347960a974a25cadf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ea39d3d6ec161742603eea5563c6483') in 0.028738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_17_A.fbx
+  artifactKey: Guid(d6006a5d84d081e469f18242bfe9d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_17_A.fbx using Guid(d6006a5d84d081e469f18242bfe9d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da809eb593445bf79b1c278826d58a43') in 0.0216372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_14_A.fbx
+  artifactKey: Guid(b8dacde2eedfd5f4180bdb4add7b3b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_14_A.fbx using Guid(b8dacde2eedfd5f4180bdb4add7b3b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a1b03a4e9128da7f2e6e9ced92bf007') in 0.0234933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bush_10.fbx
+  artifactKey: Guid(530c4ae1b7046bb4f881e80b90f88d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bush_10.fbx using Guid(530c4ae1b7046bb4f881e80b90f88d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7429af422d74567d35f9cccd2a2a5640') in 0.0238116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_13_B.fbx
+  artifactKey: Guid(6967c5fbb729d2c4596bbd9e25213701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_13_B.fbx using Guid(6967c5fbb729d2c4596bbd9e25213701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f2087c097a874352c0ee0165d9628ea') in 0.0237227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_22_A.fbx
+  artifactKey: Guid(3d268fe6458bce948adea7bac3327129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_22_A.fbx using Guid(3d268fe6458bce948adea7bac3327129) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25326caac24fe71f207f9fdf27736e28') in 0.0230897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_07_B.fbx
+  artifactKey: Guid(b3c0b014acbd1654ca20bbe1a41be43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_07_B.fbx using Guid(b3c0b014acbd1654ca20bbe1a41be43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '422de651b8872b12afc8810cee4a7d9d') in 0.0238459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_09_B.fbx
+  artifactKey: Guid(e6af8c49c00d4e941a9009809e424b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_09_B.fbx using Guid(e6af8c49c00d4e941a9009809e424b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0eca38bda322514a189776ff6969a9bc') in 0.022106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_05_B.fbx
+  artifactKey: Guid(a3756bf081aeee04f95b650b819bfcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_05_B.fbx using Guid(a3756bf081aeee04f95b650b819bfcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba87c586ef1868bee94fd1b88430736d') in 0.0233797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.039400 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_30_B.fbx
+  artifactKey: Guid(4d113911ac5dc50448d520cf9a9ff013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_30_B.fbx using Guid(4d113911ac5dc50448d520cf9a9ff013) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6178c060ab9a5fddfeb6513533fe5c19') in 0.0369537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_35_A.fbx
+  artifactKey: Guid(0a31dd477a56a7a48bb11b03d6f8c77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_35_A.fbx using Guid(0a31dd477a56a7a48bb11b03d6f8c77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a452a6a2477b3867e4de9d193ee6d860') in 0.045128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_38_A.fbx
+  artifactKey: Guid(813fe36e2cc452e4e97ba18629e17be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_38_A.fbx using Guid(813fe36e2cc452e4e97ba18629e17be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '588c0cb8fa35104a0ef3f806e7e9dbee') in 0.0402067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_34_B.fbx
+  artifactKey: Guid(ad37b8ba2c7542a42a16909aa58c6c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_34_B.fbx using Guid(ad37b8ba2c7542a42a16909aa58c6c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a478188d4b5da8647cd7a312da0bcb6') in 0.0393937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_38_B.fbx
+  artifactKey: Guid(893966b13c0035945a2cc44db128f5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Cactus_38_B.fbx using Guid(893966b13c0035945a2cc44db128f5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90f600dd2006ebfbf1c037aac766c8f2') in 0.0228537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_08.fbx
+  artifactKey: Guid(7bd4248112267ca40a35cfb1f05b28e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_08.fbx using Guid(7bd4248112267ca40a35cfb1f05b28e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6d56fc96f2b99a92486ac7f4d840c35') in 0.0246843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_13.fbx
+  artifactKey: Guid(383b68d50cd8e56418083c32ecbce49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_13.fbx using Guid(383b68d50cd8e56418083c32ecbce49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a773d36ccb3f80b5046ed2a5a54ec812') in 0.0248439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_14.fbx
+  artifactKey: Guid(bd697583583accf4dae2edf160157efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_14.fbx using Guid(bd697583583accf4dae2edf160157efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ef41a250d49a47c7845e97d6c9b968d') in 0.0238211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_11.fbx
+  artifactKey: Guid(f03608a7edc86aa42a6f5d4726885c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_11.fbx using Guid(f03608a7edc86aa42a6f5d4726885c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8020caa802c60a02a84edb8568a369f0') in 0.02242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_32.fbx
+  artifactKey: Guid(377f478dc89af424e8378fb08fa42933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_32.fbx using Guid(377f478dc89af424e8378fb08fa42933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2057ab2e398ce7ad2f95975198f2569') in 0.0274957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_09.fbx
+  artifactKey: Guid(52d40a2053d54d4468b6cbff91b9bb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_09.fbx using Guid(52d40a2053d54d4468b6cbff91b9bb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49708cc760ed5351927d17e33f8fcae8') in 0.0276818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_20.fbx
+  artifactKey: Guid(ae10855c40b3d894da1d78b1da13efec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_20.fbx using Guid(ae10855c40b3d894da1d78b1da13efec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2869c5f93f09840fdd62fa18a166592') in 0.0302556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/CactusFlower_2.fbx
+  artifactKey: Guid(be014dd3f99f73047bd78842c6734b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/CactusFlower_2.fbx using Guid(be014dd3f99f73047bd78842c6734b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '957839fb759b81e745c61285ff3648fe') in 0.0239729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_09.fbx
+  artifactKey: Guid(85fc9229e61470f4f95635896a0146c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_09.fbx using Guid(85fc9229e61470f4f95635896a0146c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '464dffed8ced778811b6837aabc5924f') in 0.0220722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_22.fbx
+  artifactKey: Guid(69786c765131f1e489d390265efdd890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_22.fbx using Guid(69786c765131f1e489d390265efdd890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c75d3764210c88255b2d574ea2dfdb9') in 0.0214952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_19.fbx
+  artifactKey: Guid(a70554721ca749c4485d2a6f1c1d2c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_19.fbx using Guid(a70554721ca749c4485d2a6f1c1d2c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bfb31e4700cd621e8b131da86e97fc2') in 0.0243235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_17.fbx
+  artifactKey: Guid(9a02a5190eda4584e915a84a6fd119ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_17.fbx using Guid(9a02a5190eda4584e915a84a6fd119ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca7c418623d03ea4736dbd786aac2bdd') in 0.0261863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_11.fbx
+  artifactKey: Guid(455ce9100d84f804990316e0ab649a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_11.fbx using Guid(455ce9100d84f804990316e0ab649a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bd5b5d6218d7bcf5d100a565db514b1') in 0.0265668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Foliage_02.fbx
+  artifactKey: Guid(c6773edf04985604f8d9ff5a895d41e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Foliage_02.fbx using Guid(c6773edf04985604f8d9ff5a895d41e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6de67760c2b00f1e00cf2e5410c48d2b') in 0.02485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_25.fbx
+  artifactKey: Guid(c5adce4943b329946be794ad97800a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_25.fbx using Guid(c5adce4943b329946be794ad97800a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57a26f8ca7d3202b49c8fa27b4101e6e') in 0.0270572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Foliage_03.fbx
+  artifactKey: Guid(5a2e6d116e285f5439d297e15e5be49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Foliage_03.fbx using Guid(5a2e6d116e285f5439d297e15e5be49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '358b6b7b67a4d7fa39e2d286422e83d9') in 0.0246574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_21.fbx
+  artifactKey: Guid(c191d239bab3ca340a8fe00555d861f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_21.fbx using Guid(c191d239bab3ca340a8fe00555d861f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1776dd90af0a831ed9fc3fb7f16af6fe') in 0.0251663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_08.fbx
+  artifactKey: Guid(be7d534f939919b4e92bba7e16238710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_08.fbx using Guid(be7d534f939919b4e92bba7e16238710) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0120e87d80c0c2aef0932d8404a522a4') in 0.0327028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_03.fbx
+  artifactKey: Guid(699cde63e8bbd874e9b17ec8f3c23e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_03.fbx using Guid(699cde63e8bbd874e9b17ec8f3c23e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53f7df93c114d65658b2fdf8362687c9') in 0.0274039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Foliage_08.fbx
+  artifactKey: Guid(352f109cce8179246b0b53feb0a4ea23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Foliage_08.fbx using Guid(352f109cce8179246b0b53feb0a4ea23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cfa8916e02cd21973362a87e705adac') in 0.0242209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_07.fbx
+  artifactKey: Guid(0c4743d711d6d3d4086f2c544044ac31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Flower_07.fbx using Guid(0c4743d711d6d3d4086f2c544044ac31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '924d01e9eab4ea5b9646dd9ed0c59e56') in 0.0231683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_06.fbx
+  artifactKey: Guid(59ccc5a85082ff449a66584c43f79b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_06.fbx using Guid(59ccc5a85082ff449a66584c43f79b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67baca5fdcd25678a4b9aeb385bc2865') in 0.0259124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Foliage_04.fbx
+  artifactKey: Guid(9513cb23a34a1b242b2cb69f8075cfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Foliage_04.fbx using Guid(9513cb23a34a1b242b2cb69f8075cfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c693c4fc3eeaa163bfc31d8f2830e788') in 0.0237873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.267057 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_12.fbx
+  artifactKey: Guid(0916e56962cd28a43ae32ffd1eb74bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_12.fbx using Guid(0916e56962cd28a43ae32ffd1eb74bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a80028b89f7d51fcf0b43245ae92c06a') in 0.0284952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_22.fbx
+  artifactKey: Guid(67ede1326f9da2242add23b2ffc5ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_22.fbx using Guid(67ede1326f9da2242add23b2ffc5ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acc024f5ee530f7aaaa8c5b8fed94ff5') in 0.0263918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_15.fbx
+  artifactKey: Guid(9bf91ae7843afae4dbbe81659d045e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_15.fbx using Guid(9bf91ae7843afae4dbbe81659d045e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '092b74492dd39802699ff2167da0ef27') in 0.0235707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_04.fbx
+  artifactKey: Guid(1dc2ce7af7a959b4e81997ee9f222d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_04.fbx using Guid(1dc2ce7af7a959b4e81997ee9f222d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '506546c6b10e748f61d434cb75b22580') in 0.0226669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_33.fbx
+  artifactKey: Guid(0e497d27268cc754b81e8ee2383ec45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_33.fbx using Guid(0e497d27268cc754b81e8ee2383ec45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b98f3cf868294f82bb76f84900a96ebd') in 0.0283374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_30.fbx
+  artifactKey: Guid(767315d6ec2c53c4d847a4a1ea5e5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_30.fbx using Guid(767315d6ec2c53c4d847a4a1ea5e5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d0b6393733732027e2ad4b70c59266e') in 0.0255783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_37.fbx
+  artifactKey: Guid(1914ed13503c2394cb03a722dec51ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_37.fbx using Guid(1914ed13503c2394cb03a722dec51ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73e214424ebc3685f0eade3d62e72519') in 0.032954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_49.fbx
+  artifactKey: Guid(5342895ec121e1a4e87bfdfe6e2ec885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_49.fbx using Guid(5342895ec121e1a4e87bfdfe6e2ec885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1611bb1ed0e8840993c09884c67b57ae') in 0.0352638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_44.fbx
+  artifactKey: Guid(cfa04f9019c2d724d9774de694ab16c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_44.fbx using Guid(cfa04f9019c2d724d9774de694ab16c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08f19575c78385789da933acce1c4d24') in 0.0364454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_43.fbx
+  artifactKey: Guid(a3f147ea6968f9849ac09cb00585434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_43.fbx using Guid(a3f147ea6968f9849ac09cb00585434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f30479b9e414dcc8a4bbe50aedda7765') in 0.0306433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_12.fbx
+  artifactKey: Guid(49bb6499f133e874fa5332bc2e0310f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_12.fbx using Guid(49bb6499f133e874fa5332bc2e0310f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9667196e1dd9e15cc435a9f43b25571e') in 0.0286853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_11.fbx
+  artifactKey: Guid(b7dc1070c2e9e1b4fab5e6de4993c182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_11.fbx using Guid(b7dc1070c2e9e1b4fab5e6de4993c182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b544f29d7c15149a6bf9e863c9897a7') in 0.0219198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_28.fbx
+  artifactKey: Guid(a71a676d7400ee044908fe44566bc36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_28.fbx using Guid(a71a676d7400ee044908fe44566bc36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd16263281b62ec3a20a3a8d09a33d33b') in 0.0243932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_27.fbx
+  artifactKey: Guid(03de8b33468783c4090ce191df4e6d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_27.fbx using Guid(03de8b33468783c4090ce191df4e6d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dcef398e458fe0372fc2d96ff82c0f1') in 0.0257312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_40.fbx
+  artifactKey: Guid(cd6a6ec3b5c74304f80c03947714ca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_40.fbx using Guid(cd6a6ec3b5c74304f80c03947714ca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f1431f9b8dce0873aec92773ca88da4') in 0.02725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_20.fbx
+  artifactKey: Guid(7e52ae6c928a7b24987e43f30401d5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_20.fbx using Guid(7e52ae6c928a7b24987e43f30401d5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22eefe61bb7735a7097f5c1952aade31') in 0.0248612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_38.fbx
+  artifactKey: Guid(2388e3b073032a04c8021266d47a2cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_38.fbx using Guid(2388e3b073032a04c8021266d47a2cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b19a4af8226c44002b4f41bf90deabc') in 0.0215288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_32.fbx
+  artifactKey: Guid(2c37c75f31381e945824fbaf79fea159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_32.fbx using Guid(2c37c75f31381e945824fbaf79fea159) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c96b53bf53cc33a22d41acd5e94f1da4') in 0.0226108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_26.fbx
+  artifactKey: Guid(a3713fa2106a12f4288f4729e2b4e709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_26.fbx using Guid(a3713fa2106a12f4288f4729e2b4e709) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab54e2ab77c35012571afc587d7c091d') in 0.0212959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_35.fbx
+  artifactKey: Guid(85ee859fe4862484691f93efbce8b13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_35.fbx using Guid(85ee859fe4862484691f93efbce8b13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaa7dbe88874bc03a6a96a782e623cf1') in 0.0205703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.288312 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_51.fbx
+  artifactKey: Guid(83a2335859fe16b4a9478ba17b0ba6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/HardRock_51.fbx using Guid(83a2335859fe16b4a9478ba17b0ba6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc8417c5d7b11995e7c821fb98a73cab') in 0.0244617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_02.fbx
+  artifactKey: Guid(f1cb55a940d6eb048bfd00c3aeea2cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_02.fbx using Guid(f1cb55a940d6eb048bfd00c3aeea2cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f53c87165c0bcf5dd7c814551433796') in 0.0254207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_20.fbx
+  artifactKey: Guid(447fbfce0dbbba842b2eabaf5c87ee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_20.fbx using Guid(447fbfce0dbbba842b2eabaf5c87ee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '283713c0496f6772d65864be5ffb32c5') in 0.0266621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_07.fbx
+  artifactKey: Guid(d372074887ddd76438dcc1daa1bd50d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_07.fbx using Guid(d372074887ddd76438dcc1daa1bd50d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cea4fc84b91beb08d2304b6259f7015') in 0.0288863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_04.fbx
+  artifactKey: Guid(4befb1ec556540d49801247afdb85308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_04.fbx using Guid(4befb1ec556540d49801247afdb85308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81a1e1dbd1e7b09f85e6cb68e9353b77') in 0.0280529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_15.fbx
+  artifactKey: Guid(0ff78398c929aac4394221e95593e9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_15.fbx using Guid(0ff78398c929aac4394221e95593e9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ece97a82d055d6056244112cb8864643') in 0.0245173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_11.fbx
+  artifactKey: Guid(1aa1a89f33ebe2940ac3ac444e6bf370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_11.fbx using Guid(1aa1a89f33ebe2940ac3ac444e6bf370) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0a46115b2fbcce457aad7a9bcda5a64') in 0.0251621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_18.fbx
+  artifactKey: Guid(96bf1f4726259f54ab979cd182fe4186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_18.fbx using Guid(96bf1f4726259f54ab979cd182fe4186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07aaab85a1122e5fb03e7dd80f6b556e') in 0.0295677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_35.fbx
+  artifactKey: Guid(c5ec022d449ed7348b579781dbc47736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_35.fbx using Guid(c5ec022d449ed7348b579781dbc47736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c994ea3fd536438022b4bf443629ed67') in 0.024675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_43.fbx
+  artifactKey: Guid(8f555d6a1178536479d9022b8035bd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_43.fbx using Guid(8f555d6a1178536479d9022b8035bd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8738d33f2eae2bd015c6271621537650') in 0.0259702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_34.fbx
+  artifactKey: Guid(27b0fafb48b924043b3161661db9f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_34.fbx using Guid(27b0fafb48b924043b3161661db9f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afec830992303f51a8f3eb38e108c80a') in 0.0274808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_41.fbx
+  artifactKey: Guid(ab54579064088914e80c5c5f4c74ff69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_41.fbx using Guid(ab54579064088914e80c5c5f4c74ff69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f805e53a7c091f156e01097fb5b0c9b') in 0.0207192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Log_05.fbx
+  artifactKey: Guid(e07966e44a0d5434e9df0ee39d3f7afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Log_05.fbx using Guid(e07966e44a0d5434e9df0ee39d3f7afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '268b829a9237bb6ead13150c165c88c5') in 0.0222465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_42.fbx
+  artifactKey: Guid(bf1398f38e8b5274a9637bfbdb2eed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_42.fbx using Guid(bf1398f38e8b5274a9637bfbdb2eed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05eb6907a872d6185dc8ea5e28734efd') in 0.0217618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_30.fbx
+  artifactKey: Guid(549d91182dc6d5c439aef850864d2221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_30.fbx using Guid(549d91182dc6d5c439aef850864d2221) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63349a8611840a9c30b48da371b0c2c4') in 0.0212892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_38.fbx
+  artifactKey: Guid(ecc9293a3a97ea74e9dc38ef8dc7e791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Jem_38.fbx using Guid(ecc9293a3a97ea74e9dc38ef8dc7e791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f8688cdda53bcb3712b306f98d4856f') in 0.0233218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132617 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Log_08.fbx
+  artifactKey: Guid(1e42ceabc0e781f489ef2cc44c990d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Log_08.fbx using Guid(1e42ceabc0e781f489ef2cc44c990d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9328c05760aadfbdb6197cbcbe1629f') in 0.0354066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Mashroom_05.fbx
+  artifactKey: Guid(6674286cc8e89bc47a3adeb348dab49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Mashroom_05.fbx using Guid(6674286cc8e89bc47a3adeb348dab49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1adc50ee131779b3b1eceede3a056277') in 0.0271497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_06_A.fbx
+  artifactKey: Guid(e158506f8870b5842a31dba013a461f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_06_A.fbx using Guid(e158506f8870b5842a31dba013a461f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aece452404d1f7b1dacef220553f613') in 0.0209053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_06_B.fbx
+  artifactKey: Guid(589dd37bcc0cb884aa3244fb339ac4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_06_B.fbx using Guid(589dd37bcc0cb884aa3244fb339ac4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bec81d62716b2a9b8b4235e4bc21f2bf') in 0.0215886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Mashroom_22.fbx
+  artifactKey: Guid(a0ae3d2cd6dd0244bbd18498cd5deb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Mashroom_22.fbx using Guid(a0ae3d2cd6dd0244bbd18498cd5deb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f80e4ceda6911eb554586b74209190b') in 0.0198004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_03_C.fbx
+  artifactKey: Guid(6ba3a0d7067b8824a9c55ebfdcb7b6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_03_C.fbx using Guid(6ba3a0d7067b8824a9c55ebfdcb7b6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '289a4fdb04745c2e75561e56097562e6') in 0.0201961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_03_A.fbx
+  artifactKey: Guid(57c5651497b2b3d4791439d2ed38ae70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_03_A.fbx using Guid(57c5651497b2b3d4791439d2ed38ae70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a17b507e889dd6494ad1ed64d3c36a5') in 0.0207278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_05_A.fbx
+  artifactKey: Guid(a2f08fb0e00472c44bd3a9e10d731f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_05_A.fbx using Guid(a2f08fb0e00472c44bd3a9e10d731f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3940bbb84f7a99ee9f423d53c78b88eb') in 0.0210382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Mashroom_11.fbx
+  artifactKey: Guid(9e3250a62d59e3745bb997e7ca722907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Mashroom_11.fbx using Guid(9e3250a62d59e3745bb997e7ca722907) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18db77fa910b6a1dfad97a48654fa05b') in 0.020823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Mashroom_19.fbx
+  artifactKey: Guid(988d5b55525c5a24fa076a4b886f395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Mashroom_19.fbx using Guid(988d5b55525c5a24fa076a4b886f395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bcb3377a1fc7813d3310069ecde5565') in 0.0219217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_01_A.fbx
+  artifactKey: Guid(076ef6e20d674df4aba9ad9ee514efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_01_A.fbx using Guid(076ef6e20d674df4aba9ad9ee514efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d4efa7aabb5985abdd0a64cad16f240') in 0.0215124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Mashroom_09.fbx
+  artifactKey: Guid(ce6dec7ef6de3ef40970f3b1edb2fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Mashroom_09.fbx using Guid(ce6dec7ef6de3ef40970f3b1edb2fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acbfb90b8d289ccf152a51e35383c2b3') in 0.0217375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.463890 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_08_B.fbx
+  artifactKey: Guid(110f47adc0c08c241ba98335745b8bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_08_B.fbx using Guid(110f47adc0c08c241ba98335745b8bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc82a9387b21c7ed513ce6762cb1c491') in 0.022585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_13_B.fbx
+  artifactKey: Guid(3d8055f67fe1adb418c4e65c408a822e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_13_B.fbx using Guid(3d8055f67fe1adb418c4e65c408a822e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd56b112f9a832d28d2f2b0228337770') in 0.0229776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_10_A.fbx
+  artifactKey: Guid(6a2688b2b4e3b8943a8855d50207e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_10_A.fbx using Guid(6a2688b2b4e3b8943a8855d50207e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6db529c49b360017c818a6468106bb1e') in 0.0224421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_15_B.fbx
+  artifactKey: Guid(05aaae9313f42f04da472b6fc5185eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_15_B.fbx using Guid(05aaae9313f42f04da472b6fc5185eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19796f288c00022f4d360c2dd2925a27') in 0.0242534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Skull_04.fbx
+  artifactKey: Guid(e8e2e0a1f0debb54282fdfea5ce34834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Skull_04.fbx using Guid(e8e2e0a1f0debb54282fdfea5ce34834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f6289a74891ce02bae2437f914e135e') in 0.020887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Plant_Stem_03.fbx
+  artifactKey: Guid(68ae80f8c3896c1459c040400dcd799b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Plant_Stem_03.fbx using Guid(68ae80f8c3896c1459c040400dcd799b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e493748aba9d18508279a574c1fb9c5b') in 0.0261364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_15_C.fbx
+  artifactKey: Guid(34f329bb274a2ca4fbd0d10bc63bfe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_15_C.fbx using Guid(34f329bb274a2ca4fbd0d10bc63bfe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e199e88e83214a2bc3d7de179b3142f7') in 0.022812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_04.fbx
+  artifactKey: Guid(f6baaf120a63c364a93931ed18b4cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_04.fbx using Guid(f6baaf120a63c364a93931ed18b4cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b27e4db855595d123ce34af31e49c5fb') in 0.021664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_15.fbx
+  artifactKey: Guid(8b78167520756bb4fa8e3d5a6919ac14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_15.fbx using Guid(8b78167520756bb4fa8e3d5a6919ac14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f3c02ee00239f264ed5d6c450e922e8') in 0.0237381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_29.fbx
+  artifactKey: Guid(0f1c6d045ee67bf4eb596a7786022530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_29.fbx using Guid(0f1c6d045ee67bf4eb596a7786022530) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcdf4a7d7a1f5b5c825b63619bb84362') in 0.0256765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_32.fbx
+  artifactKey: Guid(e2707e4804f9c974da139cfbfff9785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_32.fbx using Guid(e2707e4804f9c974da139cfbfff9785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a62e79bb95a104f3835957e19be51099') in 0.0274642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_21.fbx
+  artifactKey: Guid(dcfe0d96be965ed47aa9f56c4e53ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_21.fbx using Guid(dcfe0d96be965ed47aa9f56c4e53ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c885f36e1e649ea66d4c505ab160263') in 0.0354613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_20.fbx
+  artifactKey: Guid(403eb90de18bb994596c995722b7fdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_20.fbx using Guid(403eb90de18bb994596c995722b7fdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3f09382be6ad6cad355bd4cb5277132') in 0.0407642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_12.fbx
+  artifactKey: Guid(a6a6a7480fa07d2438a22ea9b2b3a5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_12.fbx using Guid(a6a6a7480fa07d2438a22ea9b2b3a5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '932ba9f174bd088319441aa6302598dd') in 0.025174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_01.fbx
+  artifactKey: Guid(49899198b1095a34b95592b51e29b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/SoftRock_01.fbx using Guid(49899198b1095a34b95592b51e29b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '198cd9de1bfc5cd057785126baeaf79f') in 0.0260038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_11_B.fbx
+  artifactKey: Guid(e8dbc645938e3b443a589f00038c4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/MineralNode_11_B.fbx using Guid(e8dbc645938e3b443a589f00038c4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68253c396d50fb99740094063b29cbd6') in 0.0267269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033004 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Stick_01.fbx
+  artifactKey: Guid(21e796548f6fd9c4e8e11598331f8dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Stick_01.fbx using Guid(21e796548f6fd9c4e8e11598331f8dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84d7e2369fc4baae0aee56a1306c90ce') in 0.0228999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_05.fbx
+  artifactKey: Guid(74bb7fbceccc7934388bf384688a8c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_05.fbx using Guid(74bb7fbceccc7934388bf384688a8c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8a8412a5e8bd6e27fa3ecd6bb2765c7') in 0.0233488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_16.fbx
+  artifactKey: Guid(616b67b5dbf900544833819e5ba6d929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_16.fbx using Guid(616b67b5dbf900544833819e5ba6d929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9eaf3a6604446ba47d6c0398e2d3cc5') in 0.0238744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_04.fbx
+  artifactKey: Guid(ec20fc3d3b1b8d54c9a5c7a3bfba14a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_04.fbx using Guid(ec20fc3d3b1b8d54c9a5c7a3bfba14a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8756efc7a140f0f80f78345ea8287df') in 0.0232441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_15.fbx
+  artifactKey: Guid(c07413af685512c4a8cf8513739d76f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_15.fbx using Guid(c07413af685512c4a8cf8513739d76f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3edf7697a6aaf14cec08a3de611eaae7') in 0.028599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_09.fbx
+  artifactKey: Guid(402ae0bb08e93c944b74a223d474b0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_09.fbx using Guid(402ae0bb08e93c944b74a223d474b0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53e986ea6a7c827f6e0f9c0ceca830fc') in 0.027446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_01.fbx
+  artifactKey: Guid(2a137ee4c00892e4586178d2e98353fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_01.fbx using Guid(2a137ee4c00892e4586178d2e98353fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19cd73677441f64bb5f143ae1a340994') in 0.0236857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_07.fbx
+  artifactKey: Guid(463a13ea4eecd1a4bbe9b6dd6491cf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_07.fbx using Guid(463a13ea4eecd1a4bbe9b6dd6491cf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afdef815e133e3e12e7712078af8c543') in 0.0233266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.152605 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_18.fbx
+  artifactKey: Guid(890ecd1b62657e144a50e6b6448b73d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_18.fbx using Guid(890ecd1b62657e144a50e6b6448b73d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9751802bac7b9f77bee56b10b5206028') in 0.0219833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_26.fbx
+  artifactKey: Guid(4bdd8c3804e517543bfaf96f6c6a2d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_26.fbx using Guid(4bdd8c3804e517543bfaf96f6c6a2d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f400a6340c0dee953e803e4c191a7d3a') in 0.0221507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_41.fbx
+  artifactKey: Guid(6e082e697db8ded4b91464a0fbd83ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_41.fbx using Guid(6e082e697db8ded4b91464a0fbd83ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e298fd951fc6c2bc46ed7842c2716e22') in 0.023652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_22.fbx
+  artifactKey: Guid(591b0e3d07b137e44bdaf98b62c46c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_22.fbx using Guid(591b0e3d07b137e44bdaf98b62c46c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52968f5ca18a118349183e6155f8bdc4') in 0.0248394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_43.fbx
+  artifactKey: Guid(fa2f3595bd44dae4aaf939afe5800431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_43.fbx using Guid(fa2f3595bd44dae4aaf939afe5800431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35a08e852b2c958c085d5db13ef0de4d') in 0.019029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_28.fbx
+  artifactKey: Guid(3a77c40e91a44a64596929929687a7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_28.fbx using Guid(3a77c40e91a44a64596929929687a7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74b2a7e18c0668b31d9f3872af8dc8c2') in 0.0199841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_35.fbx
+  artifactKey: Guid(0033bd2df072b7a488fc3623899ac6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_35.fbx using Guid(0033bd2df072b7a488fc3623899ac6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cab58b4ff4ca4b92cff3788120cbff2') in 0.0202527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_33.fbx
+  artifactKey: Guid(a750b28a43fcf7f48ba0a23ddaf0aaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileGround_33.fbx using Guid(a750b28a43fcf7f48ba0a23ddaf0aaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd22c19f56922abb373b71e72b7ed3aab') in 0.0212829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.432472 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_02.fbx
+  artifactKey: Guid(84e22fafce14eec4e8cbb1ae1d6e4719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_02.fbx using Guid(84e22fafce14eec4e8cbb1ae1d6e4719) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '931e627916864d2bf299c3da98844b37') in 0.0211914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_09.fbx
+  artifactKey: Guid(4285bfda6818f7c4e96e2e51402548c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_09.fbx using Guid(4285bfda6818f7c4e96e2e51402548c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b306ae60d1316d2880a0701f6b3f790d') in 0.02273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_06.fbx
+  artifactKey: Guid(e622cca2eeeef364083e6fa3e99de07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_06.fbx using Guid(e622cca2eeeef364083e6fa3e99de07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a62c4c312611e99b171bbf88ef533515') in 0.0230917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_17.fbx
+  artifactKey: Guid(9a218f79734d77b4dbca803088159577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_17.fbx using Guid(9a218f79734d77b4dbca803088159577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd167162bb0c7e1eacc9b9afefd8b3d4b') in 0.0205035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.820737 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_18.fbx
+  artifactKey: Guid(315430c6fb9018f448c68773540cff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_18.fbx using Guid(315430c6fb9018f448c68773540cff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec54bfb06007ce9bbbdc0c4f42006b97') in 0.0448913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_26.fbx
+  artifactKey: Guid(b40d0046f46688146b805bb6c0247e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_26.fbx using Guid(b40d0046f46688146b805bb6c0247e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57079ea2436d5235e57cf0185baf13c2') in 0.0444189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_02.fbx
+  artifactKey: Guid(bf2f8a2e63a3ad04f8fb7a793c414b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_02.fbx using Guid(bf2f8a2e63a3ad04f8fb7a793c414b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfa427e5897fc372fa1545330dac8a81') in 0.0335484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_25.fbx
+  artifactKey: Guid(8ee934d2e23e1f34c9f6d954ed32c24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileHex_25.fbx using Guid(8ee934d2e23e1f34c9f6d954ed32c24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2cf6b23e7db32979f1f2cc8116a14e5') in 0.038198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116674 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_03.fbx
+  artifactKey: Guid(b95c799fb8aff28419a77133efef303a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_03.fbx using Guid(b95c799fb8aff28419a77133efef303a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3014cf2ef7f5d801ebe9e8fc10594771') in 0.0281849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_15.fbx
+  artifactKey: Guid(4e8797093545ede468eb0334f32203f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_15.fbx using Guid(4e8797093545ede468eb0334f32203f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '094f76b9e4d6f89b624c97f73615c334') in 0.0278262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_07.fbx
+  artifactKey: Guid(0fbad630fb5eab949a10fa26f35bd51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_07.fbx using Guid(0fbad630fb5eab949a10fa26f35bd51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43e7e5caf041866b37c1f96f7507a258') in 0.0286059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_22.fbx
+  artifactKey: Guid(3335250860bcf974abcd8787233e7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_22.fbx using Guid(3335250860bcf974abcd8787233e7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fce7cc48cbd5965efe2efa6f11cc048d') in 0.0263577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_02_Spring.fbx
+  artifactKey: Guid(3b4058806009e054ba77fd12291b4a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_02_Spring.fbx using Guid(3b4058806009e054ba77fd12291b4a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4540382af35afe06e6e5f24ee57b2239') in 0.0460671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_09.fbx
+  artifactKey: Guid(ee72740a8d8376140b91ed7c550e004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TileWater_09.fbx using Guid(ee72740a8d8376140b91ed7c550e004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '826880cf5b1651625efa8a522c6c278a') in 0.0254609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_04_Spring.fbx
+  artifactKey: Guid(59ee9c1a70a71b0409ff36ad29ed03c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_04_Spring.fbx using Guid(59ee9c1a70a71b0409ff36ad29ed03c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f13a3b5aba0a82514221c8fade45d433') in 0.0433151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_03_Winter.fbx
+  artifactKey: Guid(9cb1d22f685976b419b41618c2abb47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_03_Winter.fbx using Guid(9cb1d22f685976b419b41618c2abb47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7dac25968f5b83c363f7735b8798360') in 0.0438644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.227318 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_04_Winter.fbx
+  artifactKey: Guid(f24d6ebaab3d8b54c88d1a918b1a1d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_04_Winter.fbx using Guid(f24d6ebaab3d8b54c88d1a918b1a1d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ac39a183723a95b1d6d61fb7e01f886') in 0.0410206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_09_Spring.fbx
+  artifactKey: Guid(610e078fea0a58348a9e0f60f2ecbc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_09_Spring.fbx using Guid(610e078fea0a58348a9e0f60f2ecbc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '290e70237b608ef001c4e80e2286e3de') in 0.050337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_07_Fall.fbx
+  artifactKey: Guid(8b0de42655f4bd246932c0c316157ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_07_Fall.fbx using Guid(8b0de42655f4bd246932c0c316157ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '085736bd048a01d6b930663e781f72e0') in 0.0493872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_09_Fall.fbx
+  artifactKey: Guid(1d7ce69f600ae8143bd3558ec81df5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_09_Fall.fbx using Guid(1d7ce69f600ae8143bd3558ec81df5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b4d0e8a7761757bb7c58df4db5c9315') in 0.0460161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.460406 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_10_Fall.fbx
+  artifactKey: Guid(773c029c8bfca6d4f85e6ddc3047b117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_10_Fall.fbx using Guid(773c029c8bfca6d4f85e6ddc3047b117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f51f561302cff806f2c8adc9c03fab42') in 0.070425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_13_Spring.fbx
+  artifactKey: Guid(ae91287df1f90b94f8f7a9ef5b629959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_13_Spring.fbx using Guid(ae91287df1f90b94f8f7a9ef5b629959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97410ea89bdcaae26f301843ccbe903b') in 0.0529657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_14_Fall.fbx
+  artifactKey: Guid(592ebb3057881c54ebfe761f1eb27c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_14_Fall.fbx using Guid(592ebb3057881c54ebfe761f1eb27c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ad66d65a954b99cb8ef56a792132e9e') in 0.0390524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_12_Winter.fbx
+  artifactKey: Guid(c61aa3f112b090e46a99f8a5e30b5688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_12_Winter.fbx using Guid(c61aa3f112b090e46a99f8a5e30b5688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '775ce011a080f6ac4264cc90bd267202') in 0.0373788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.921771 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_15_Spring.fbx
+  artifactKey: Guid(c8381831a2e2e1747b91da8dce8580aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_15_Spring.fbx using Guid(c8381831a2e2e1747b91da8dce8580aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d93db41876c7493b73a15ec7e3414c8') in 0.0313144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_20_Spring.fbx
+  artifactKey: Guid(056d1d56710c8c648b9e93b741be3b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_20_Spring.fbx using Guid(056d1d56710c8c648b9e93b741be3b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ae4164e531920227a6325d14ab42434') in 0.0343365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_18_Fall.fbx
+  artifactKey: Guid(437fcbf54321858448e9deb1f1a87eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_18_Fall.fbx using Guid(437fcbf54321858448e9deb1f1a87eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a5faee29ff2c78f0ab97f91d9a0faf4') in 0.0324198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_17_Fall.fbx
+  artifactKey: Guid(ece6d3704d954a748aa3915ce51b7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_17_Fall.fbx using Guid(ece6d3704d954a748aa3915ce51b7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c152d69fa466d0bc8c795f3687580623') in 0.0358918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795198 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_20_Winter.fbx
+  artifactKey: Guid(6f679073c0bd1554888a0e9aa6ef0b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_20_Winter.fbx using Guid(6f679073c0bd1554888a0e9aa6ef0b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d5a8bc40a401c71f60e8cff9acecf99') in 0.0315739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_25_Fall.fbx
+  artifactKey: Guid(abee8479561628e4b9760b8aeeab36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_25_Fall.fbx using Guid(abee8479561628e4b9760b8aeeab36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00e4299a3552e515d5ba5d38d367a9de') in 0.0384385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_25_Winter.fbx
+  artifactKey: Guid(eb2f9f65a89de7945bf8df258123375c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_25_Winter.fbx using Guid(eb2f9f65a89de7945bf8df258123375c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '333c0d6adb89a5cf06e239dcb6435115') in 0.0374267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_24_Spring.fbx
+  artifactKey: Guid(d6b5fdf5b9eefa34c8d496dbd0efde9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_24_Spring.fbx using Guid(d6b5fdf5b9eefa34c8d496dbd0efde9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd1dbb37452ee9fd7dc22c8133408676') in 0.036963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_26_Spring.fbx
+  artifactKey: Guid(786d90ecea3d8d84b90869807811151a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_26_Spring.fbx using Guid(786d90ecea3d8d84b90869807811151a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdbc4ee0e6407f5bb0b68a6d278fcf61') in 0.0359723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_22_Fall.fbx
+  artifactKey: Guid(ede525a6984ab6c42b723e30dd0b44bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_22_Fall.fbx using Guid(ede525a6984ab6c42b723e30dd0b44bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dad121914f8300ec9f81b38b82e92e9') in 0.0397946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_27_Fall.fbx
+  artifactKey: Guid(c6c02f8040b70114aa78d501c36584a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_27_Fall.fbx using Guid(c6c02f8040b70114aa78d501c36584a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f64a97a951a125dcefef00cfe1fe87ea') in 0.0397645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_32_Fall.fbx
+  artifactKey: Guid(a2a009e19fb982b4c8ca26bf30680389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_32_Fall.fbx using Guid(a2a009e19fb982b4c8ca26bf30680389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bd35b34e1284f2d5836eec9ae78cf56') in 0.0192774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_31_Spring.fbx
+  artifactKey: Guid(ad7d6987413917141808fe12c8043ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_31_Spring.fbx using Guid(ad7d6987413917141808fe12c8043ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a780b02a1ebb49b31fc6142fe1acac29') in 0.0214142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_36_Winter.fbx
+  artifactKey: Guid(188c34349faca914fb97e227d5fa26cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_36_Winter.fbx using Guid(188c34349faca914fb97e227d5fa26cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7eab9c17de38adc8524141c96113d16') in 0.0201887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_37_Fall.fbx
+  artifactKey: Guid(04caa40ae0f7edb4c9156c296f6ba06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_37_Fall.fbx using Guid(04caa40ae0f7edb4c9156c296f6ba06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4208d2ac51ca7b4a51e90d031fcb7c88') in 0.0193206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_02.fbx
+  artifactKey: Guid(c8a60bcca80d7b84bb76d0a43b37b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_02.fbx using Guid(c8a60bcca80d7b84bb76d0a43b37b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07d722b216cff850fec6c63084f4ab2b') in 0.0241946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_13.fbx
+  artifactKey: Guid(9bf96c3e2576db04dbd11462350e4d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_13.fbx using Guid(9bf96c3e2576db04dbd11462350e4d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac1506488688e3784e2ace256d306a00') in 0.0190785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_23.fbx
+  artifactKey: Guid(2c677cecaf8845b4db8af33139380f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_23.fbx using Guid(2c677cecaf8845b4db8af33139380f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8338576116e513b0dac4c26082ca032') in 0.0185732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_32_Spring.fbx
+  artifactKey: Guid(c47c0a5dea820a64889bcaa033805108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_32_Spring.fbx using Guid(c47c0a5dea820a64889bcaa033805108) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9cd52715d70fead314221cb5173f04b') in 0.0198267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_37_Winter.fbx
+  artifactKey: Guid(72cebea3e4e9ac04e9c429394dce5703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_37_Winter.fbx using Guid(72cebea3e4e9ac04e9c429394dce5703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1c3a826a9191087a5043c17414feef9') in 0.0207974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_33.fbx
+  artifactKey: Guid(c166f0f4de8794d4f80cfb293165157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_33.fbx using Guid(c166f0f4de8794d4f80cfb293165157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d4f5c881990cc089a2fa9c342575dd9') in 0.0208641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_29.fbx
+  artifactKey: Guid(46131db8211337f429fd8a661fbdb009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_29.fbx using Guid(46131db8211337f429fd8a661fbdb009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fa523038dc8eaf2df57fb02580c7db1') in 0.0232846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_47.fbx
+  artifactKey: Guid(7502e6134bd748543870233ddc002ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_47.fbx using Guid(7502e6134bd748543870233ddc002ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7eb2dc23322c39387d5d2400c4d0c248') in 0.0204537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_51.fbx
+  artifactKey: Guid(3f4e7690b02868a4e919781dac95445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_51.fbx using Guid(3f4e7690b02868a4e919781dac95445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b9f150b09ac28b1f156a2c95d404835') in 0.0199089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_41.fbx
+  artifactKey: Guid(a9afd5ddfc9d58a40a240ed058ec579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_41.fbx using Guid(a9afd5ddfc9d58a40a240ed058ec579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37d77d89e5119b1adf81bc16a693d766') in 0.0212463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_56.fbx
+  artifactKey: Guid(1264ae2ae9081fa43a0d912e2f670875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_56.fbx using Guid(1264ae2ae9081fa43a0d912e2f670875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b86383242b66da34983a71d14ecc3c8') in 0.0211131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_16.fbx
+  artifactKey: Guid(e63fed7275808a245a6cb9da8428a55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_16.fbx using Guid(e63fed7275808a245a6cb9da8428a55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3f4b9acbf955334cdb904290485be1c') in 0.0238835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_53.fbx
+  artifactKey: Guid(0f08fd8d15f4e444699711128609f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_53.fbx using Guid(0f08fd8d15f4e444699711128609f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '176cecf2b41b91f0aa47fe063018c340') in 0.0254464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_24.fbx
+  artifactKey: Guid(3112a86567211744a85260ede83c9f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_24.fbx using Guid(3112a86567211744a85260ede83c9f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e90e05ee36d71d5830609b44eb70638b') in 0.0205756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_28_Spring.fbx
+  artifactKey: Guid(f3a42dfbfff296c4dae34f60712b1b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Tree_28_Spring.fbx using Guid(f3a42dfbfff296c4dae34f60712b1b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d9a0564de3cee3f06e0af45fe41aaf2') in 0.0346201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_40.fbx
+  artifactKey: Guid(7d80a3840c1799c4090abb1c67621fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Resources/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/TreeTrunk_40.fbx using Guid(7d80a3840c1799c4090abb1c67621fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbe9e4a0b9983e87be62dfdafc877f75') in 0.0204652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

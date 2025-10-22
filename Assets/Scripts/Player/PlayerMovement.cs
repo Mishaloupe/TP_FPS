@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
             Move();
         } else
         {
+            this.gameObject.transform.rotation = Quaternion.identity;
             MoveSV();
         }
 
@@ -35,8 +36,11 @@ public class PlayerMovement : MonoBehaviour
     public void Move()
     {
         Vector2 move = _inputHandler.MoveInput;
-        GameObject activeCam = _playerCamera._camerass[_playerCamera._cameraTypes.IndexOf(_playerCamera._cameraType)];
-        Vector3 moveDirection = activeCam.transform.forward * move.y + activeCam.transform.right * move.x;
+        GameObject movepoint = this.gameObject;
+        if (_playerCamera._cameraType != "topdown") {
+            movepoint = _playerCamera._camerass[_playerCamera._cameraTypes.IndexOf(_playerCamera._cameraType)];
+        } else { this.gameObject.transform.rotation = Quaternion.identity; }
+            Vector3 moveDirection = movepoint.transform.forward * move.y + movepoint.transform.right * move.x;
         moveDirection.y = 0;
         transform.position += moveDirection * (m_MoveSpeed * Time.deltaTime);
     }

@@ -6,13 +6,14 @@ public class CameraTPS : MonoBehaviour
     [SerializeField] private PlayerInputHandler _inputHandler;
 
     [Header("Camera")]
-    [SerializeField] private GameObject _player;
-    //[SerializeField] private Camera _mainCamera;
-    [SerializeField] private GameObject _pivot;
+    [SerializeField] private Transform _player;
+    [SerializeField] private Transform _pivot;
     private float _xRotation = 0f;
     private float _yRotation = 0f;
     private float _mouseSensitivity = 25f;
-    
+    [SerializeField] private float _distanceFromPivot = 4f;
+    [SerializeField] private Vector2 _pitchLimits = new Vector2(-30f, 60f);
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,21 +27,21 @@ public class CameraTPS : MonoBehaviour
         MoveCamera();
     }
 
-    public void Look()
+    private void Look()
     {
         Vector2 look = _inputHandler.CameraMove;
 
-        //_pivot.transform.Rotate(Vector3.up * look.x * (_mouseSensitivity * Time.deltaTime));
+        _yRotation += look.x * _mouseSensitivity * Time.deltaTime;
+        _xRotation -= look.y * _mouseSensitivity * Time.deltaTime;
+        _xRotation = Mathf.Clamp(_xRotation, _pitchLimits.x, _pitchLimits.y);
 
-        _xRotation -= look.y * (_mouseSensitivity * Time.deltaTime);
-        _yRotation += look.x * (_mouseSensitivity * Time.deltaTime);
-        _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
-        _pivot.transform.localRotation = Quaternion.Euler(_xRotation, _yRotation, 0f);
+        _pivot.rotation = Quaternion.Euler(_xRotation, _yRotation, 0f);
     }
 
-    public void MoveCamera()
+    private void MoveCamera()
     {
-        Vector3 pPos = _player.transform.position;
-        transform.position = new Vector3(pPos.x, pPos.y+2, pPos.z-4);
+        Vector3 targetPosition = _pivot.position - _pivot.forward * _distanceFromPivot;
+        transform.position = targetPosition;
+        transform.LookAt(_pivot);
     }
 }

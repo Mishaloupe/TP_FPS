@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
-    [SerializeField] private string _cameraType = "sideview";
+    [SerializeField] private string _cameraType = "cinemachine";
     [SerializeField] private GameObject _camerasv;
     [SerializeField] private GameObject _cameratd;
     [SerializeField] private GameObject _camerafp;
     [SerializeField] private GameObject _cameratp;
     [SerializeField] private GameObject _cameracm;
+    [SerializeField] private GameObject _cinemachineBrain;
     public List<string> _cameraTypes = new() { "sideview", "topdown", "FPS", "TPS" , "cinemachine"};
     public List<GameObject> _camerass;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -17,7 +18,7 @@ public class PlayerCamera : MonoBehaviour
     {
 
         _camerass = new() { _camerasv, _cameratd, _camerafp, _cameratp , _cameracm};
-        _camerasv.SetActive(true);
+        changeCamera("cinemachine");
     }
 
     // Update is called once per frame
@@ -28,7 +29,8 @@ public class PlayerCamera : MonoBehaviour
 
     public void changeCamera(string newCamera)
     {
-        _camerass[_cameraTypes.IndexOf(_cameraType)].SetActive(false);
+        if (newCamera == "cinemachine") { _cinemachineBrain.SetActive(true); } else { _cinemachineBrain.SetActive(false); }
+            _camerass[_cameraTypes.IndexOf(_cameraType)].SetActive(false);
         _cameraType = newCamera;
         _camerass[_cameraTypes.IndexOf(newCamera)].SetActive(true);
     }

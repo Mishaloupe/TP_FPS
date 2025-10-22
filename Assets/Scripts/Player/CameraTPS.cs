@@ -36,6 +36,9 @@ public class CameraTPS : MonoBehaviour
         _xRotation = Mathf.Clamp(_xRotation, _pitchLimits.x, _pitchLimits.y);
 
         _pivot.rotation = Quaternion.Euler(_xRotation, _yRotation, 0f);
+        Vector3 pPos = _player.transform.position;
+        pPos.y += 0.75f;
+        _pivot.transform.position = pPos;
     }
 
     private void MoveCamera()

@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
-    [SerializeField] private string _cameraType = "cinemachine";
-    [SerializeField] private GameObject _camerasv;
-    [SerializeField] private GameObject _cameratd;
-    [SerializeField] private GameObject _camerafp;
-    [SerializeField] private GameObject _cameratp;
-    [SerializeField] private GameObject _cameracm;
-    [SerializeField] private GameObject _cinemachineBrain;
+    [SerializeField] public string _cameraType = "cinemachine";
+    [SerializeField] public GameObject _camerasv;
+    [SerializeField] public GameObject _cameratd;
+    [SerializeField] public GameObject _camerafp;
+    [SerializeField] public GameObject _cameratp;
+    [SerializeField] public GameObject _cameracm;
+    [SerializeField] public GameObject _cinemachineBrain;
     public List<string> _cameraTypes = new() { "sideview", "topdown", "FPS", "TPS" , "cinemachine"};
     public List<GameObject> _camerass;
     // Start is called once before the first execution of Update after the MonoBehaviour is created

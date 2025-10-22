@@ -6,13 +6,9 @@ public class PlayerInputHandler : MonoBehaviour
     [SerializeField] public InputActionsPlayer _playerInput;
     private Vector2 _moveInput;
     private Vector2 _moveCamera;
-    private bool _jumping;
-    private bool _shooting;
 
     public Vector2 MoveInput => _moveInput;
     public Vector2 CameraMove => _moveCamera;
-    public bool Jumping => _jumping;
-    public bool Shooting => _shooting;
 
     private void Awake()
     {

@@ -43,9 +43,10 @@ public class PlayerMovement : MonoBehaviour
 
     public void MoveSV()
     {
-        Vector2 move = _inputHandler.MoveInput; 
-
-        Vector3 moveDirection = _playerCamera.transform.forward * move.y + _playerCamera.transform.right * move.x; 
+        Vector2 moveSV = _inputHandler.MoveInputSV;
+        GameObject activeCam = _playerCamera._camerass[_playerCamera._cameraTypes.IndexOf(_playerCamera._cameraType)];
+        Vector3 moveDirection = activeCam.transform.forward * moveSV.y + activeCam.transform.right * moveSV.x;
+        moveDirection.y = 0;
         transform.position += moveDirection * (m_MoveSpeed * Time.deltaTime);
     }
 }

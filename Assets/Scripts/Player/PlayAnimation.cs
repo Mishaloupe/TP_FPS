@@ -28,3 +28,4 @@ public class PlayAnimation : MonoBehaviour
         player.actualAnimator.SetBool(anim, trueFalse);
     }
 }
+ 

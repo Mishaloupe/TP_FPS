@@ -11,9 +11,10 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Camera")]
     [SerializeField] private Camera _mainCamera;
-    private Quaternion m_Rotation;
     private float _xRotation = 0f;
     private float _mouseSensitivity = 25f;
+
+    [SerializeField] Animator _animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
         //Cursor.visible = false;
 
         m_Position = transform.position;
-        m_Rotation = transform.rotation;
     }
 
     // Update is called once per frame
@@ -51,7 +51,5 @@ public class PlayerMovement : MonoBehaviour
         _xRotation -= look.y * (_mouseSensitivity * Time.deltaTime);
         _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
         _mainCamera.transform.localRotation = Quaternion.Euler(_xRotation, 0f, 0f);
-
-        m_Rotation = transform.rotation;
     }
 }

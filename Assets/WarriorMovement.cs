@@ -19,7 +19,19 @@ public class WarriorMovement : MonoBehaviour
 
     void Update()
     {
-        Move();
+        if (_inputHandler.Attack == false)
+        {
+            Debug.Log("pasattack");
+            _animator.SetBool("isAttacking", false);
+            Move();
+        }
+        else
+        {
+            Debug.Log("attack");
+            _animator.SetBool("isAttacking", true);
+            Attack();
+        }
+        
     }
 
     public void Move()
@@ -38,5 +50,10 @@ public class WarriorMovement : MonoBehaviour
         }
             Vector3 moveDirection = new Vector3(move.x, 0f, 0f);
         _transform.position += moveDirection * (m_MoveSpeed * Time.deltaTime);
+    }
+
+    public void Attack()
+    {
+        _animator.SetTrigger("Attack");
     }
 }

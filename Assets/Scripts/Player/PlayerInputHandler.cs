@@ -6,13 +6,10 @@ public class PlayerInputHandler : MonoBehaviour
     [SerializeField] public InputActionsPlayer _playerInput;
     private Vector2 _moveInput;
     private Vector2 _moveCamera;
-    private bool _jumping;
-    private bool _shooting;
-
+    private bool _attack;
     public Vector2 MoveInput => _moveInput;
     public Vector2 CameraMove => _moveCamera;
-    public bool Jumping => _jumping;
-    public bool Shooting => _shooting;
+    public bool Attack => _attack;
 
     private void Awake()
     {
@@ -27,5 +24,16 @@ public class PlayerInputHandler : MonoBehaviour
     public void OnLook(InputAction.CallbackContext ctx)
     {
         _moveCamera = ctx.ReadValue<Vector2>();
+    }
+    public void OnAttack(InputAction.CallbackContext ctx)
+    {
+        if (ctx.started)
+        {
+            _attack = true;
+        }
+        if (ctx.canceled)
+        {
+            _attack = false;
+        }
     }
 }

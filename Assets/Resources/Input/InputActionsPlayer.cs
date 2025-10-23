@@ -125,7 +125,7 @@ public partial class @InputActionsPlayer: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""up"",
                     ""id"": ""eaf3db15-11a4-4a9f-aa96-dd7244cac40d"",
-                    ""path"": ""<Keyboard>/w"",
+                    ""path"": ""<Keyboard>/upArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -136,7 +136,7 @@ public partial class @InputActionsPlayer: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""down"",
                     ""id"": ""dfbaac3e-1171-4ac9-9c38-6b1b83ea62ad"",
-                    ""path"": ""<Keyboard>/s"",
+                    ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -147,7 +147,7 @@ public partial class @InputActionsPlayer: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""left"",
                     ""id"": ""4d111c3a-a845-408d-8c86-3b78eda4bd73"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""path"": ""<Keyboard>/leftArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -158,7 +158,7 @@ public partial class @InputActionsPlayer: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""right"",
                     ""id"": ""bdcb3153-f57c-48bf-91e5-e28a438974d1"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""path"": ""<Keyboard>/rightArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

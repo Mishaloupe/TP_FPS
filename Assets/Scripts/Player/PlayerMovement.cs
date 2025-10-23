@@ -18,8 +18,8 @@ public class PlayerMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
 
         m_Position = transform.position;
         m_Rotation = transform.rotation;
@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
         transform.Rotate(Vector3.up * look.x * (_mouseSensitivity * Time.deltaTime));
 
         _xRotation -= look.y * (_mouseSensitivity * Time.deltaTime);
-        //_xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
+        _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
         _mainCamera.transform.localRotation = Quaternion.Euler(_xRotation, 0f, 0f);
 
         m_Rotation = transform.rotation;

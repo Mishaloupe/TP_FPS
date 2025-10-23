@@ -178,6 +178,56 @@ public partial class @InputActionsPlayer: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Warrior"",
+            ""id"": ""32a851d0-25e4-4484-a06e-20c33f7fce27"",
+            ""actions"": [
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""2821f5b4-b80b-4349-9f8e-2b7c771a8abe"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""3c52679c-a8ae-49cb-82fd-5d108ec27ec4"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""72d3de43-a5de-4f3b-a1bd-4b73a880c553"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""1b81e95e-64cf-4a6a-aab4-7640c6e10946"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -186,11 +236,15 @@ public partial class @InputActionsPlayer: IInputActionCollection2, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
+        // Warrior
+        m_Warrior = asset.FindActionMap("Warrior", throwIfNotFound: true);
+        m_Warrior_Move = m_Warrior.FindAction("Move", throwIfNotFound: true);
     }
 
     ~@InputActionsPlayer()
     {
         UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, InputActionsPlayer.Player.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_Warrior.enabled, "This will cause a leak and performance issues, InputActionsPlayer.Warrior.Disable() has not been called.");
     }
 
     /// <summary>
@@ -369,6 +423,102 @@ public partial class @InputActionsPlayer: IInputActionCollection2, IDisposable
     /// Provides a new <see cref="PlayerActions" /> instance referencing this action map.
     /// </summary>
     public PlayerActions @Player => new PlayerActions(this);
+
+    // Warrior
+    private readonly InputActionMap m_Warrior;
+    private List<IWarriorActions> m_WarriorActionsCallbackInterfaces = new List<IWarriorActions>();
+    private readonly InputAction m_Warrior_Move;
+    /// <summary>
+    /// Provides access to input actions defined in input action map "Warrior".
+    /// </summary>
+    public struct WarriorActions
+    {
+        private @InputActionsPlayer m_Wrapper;
+
+        /// <summary>
+        /// Construct a new instance of the input action map wrapper class.
+        /// </summary>
+        public WarriorActions(@InputActionsPlayer wrapper) { m_Wrapper = wrapper; }
+        /// <summary>
+        /// Provides access to the underlying input action "Warrior/Move".
+        /// </summary>
+        public InputAction @Move => m_Wrapper.m_Warrior_Move;
+        /// <summary>
+        /// Provides access to the underlying input action map instance.
+        /// </summary>
+        public InputActionMap Get() { return m_Wrapper.m_Warrior; }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
+        public void Enable() { Get().Enable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
+        public void Disable() { Get().Disable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
+        public bool enabled => Get().enabled;
+        /// <summary>
+        /// Implicitly converts an <see ref="WarriorActions" /> to an <see ref="InputActionMap" /> instance.
+        /// </summary>
+        public static implicit operator InputActionMap(WarriorActions set) { return set.Get(); }
+        /// <summary>
+        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <param name="instance">Callback instance.</param>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
+        /// </remarks>
+        /// <seealso cref="WarriorActions" />
+        public void AddCallbacks(IWarriorActions instance)
+        {
+            if (instance == null || m_Wrapper.m_WarriorActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_WarriorActionsCallbackInterfaces.Add(instance);
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
+        }
+
+        /// <summary>
+        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <remarks>
+        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
+        /// </remarks>
+        /// <seealso cref="WarriorActions" />
+        private void UnregisterCallbacks(IWarriorActions instance)
+        {
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
+        }
+
+        /// <summary>
+        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="WarriorActions.UnregisterCallbacks(IWarriorActions)" />.
+        /// </summary>
+        /// <seealso cref="WarriorActions.UnregisterCallbacks(IWarriorActions)" />
+        public void RemoveCallbacks(IWarriorActions instance)
+        {
+            if (m_Wrapper.m_WarriorActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        /// <summary>
+        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
+        /// </summary>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
+        /// </remarks>
+        /// <seealso cref="WarriorActions.AddCallbacks(IWarriorActions)" />
+        /// <seealso cref="WarriorActions.RemoveCallbacks(IWarriorActions)" />
+        /// <seealso cref="WarriorActions.UnregisterCallbacks(IWarriorActions)" />
+        public void SetCallbacks(IWarriorActions instance)
+        {
+            foreach (var item in m_Wrapper.m_WarriorActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_WarriorActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    /// <summary>
+    /// Provides a new <see cref="WarriorActions" /> instance referencing this action map.
+    /// </summary>
+    public WarriorActions @Warrior => new WarriorActions(this);
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Player" which allows adding and removing callbacks.
     /// </summary>
@@ -390,5 +540,20 @@ public partial class @InputActionsPlayer: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnLook(InputAction.CallbackContext context);
+    }
+    /// <summary>
+    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Warrior" which allows adding and removing callbacks.
+    /// </summary>
+    /// <seealso cref="WarriorActions.AddCallbacks(IWarriorActions)" />
+    /// <seealso cref="WarriorActions.RemoveCallbacks(IWarriorActions)" />
+    public interface IWarriorActions
+    {
+        /// <summary>
+        /// Method invoked when associated input action "Move" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnMove(InputAction.CallbackContext context);
     }
 }

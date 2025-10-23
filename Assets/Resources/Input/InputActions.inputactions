@@ -92,6 +92,56 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Warrior",
+            "id": "32a851d0-25e4-4484-a06e-20c33f7fce27",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "2821f5b4-b80b-4349-9f8e-2b7c771a8abe",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "3c52679c-a8ae-49cb-82fd-5d108ec27ec4",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "72d3de43-a5de-4f3b-a1bd-4b73a880c553",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "1b81e95e-64cf-4a6a-aab4-7640c6e10946",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
         }
     ],
     "controlSchemes": []

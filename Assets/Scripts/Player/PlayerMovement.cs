@@ -18,8 +18,8 @@ public class PlayerMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
 
         m_Position = transform.position;
         m_Rotation = transform.rotation;
@@ -30,6 +30,10 @@ public class PlayerMovement : MonoBehaviour
     {
         Move();
         Look();
+        if (_inputHandler.Shooting)
+        {
+            Shoot();
+        }
     }
 
     public void Move()
@@ -40,6 +44,11 @@ public class PlayerMovement : MonoBehaviour
         transform.position += moveDirection * (m_MoveSpeed * Time.deltaTime);
 
         m_Position = transform.position;
+    }
+
+    public void Shoot()
+    {
+        Debug.Log("feur");
     }
 
     public void Look()

@@ -28,4 +28,10 @@ public class PlayerInputHandler : MonoBehaviour
     {
         _moveCamera = ctx.ReadValue<Vector2>();
     }
+
+    public void OnShoot(InputAction.CallbackContext ctx)
+    {
+        if (ctx.started) { _shooting = true; }
+        if (ctx.canceled) { _shooting = false; }
+    }
 }
